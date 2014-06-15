@@ -1,4 +1,4 @@
-package uk.org.project.application;
+package uk.org.project.configuration;
 
 import org.apache.commons.lang.StringUtils;
 import org.hibernate.PropertyNotFoundException;

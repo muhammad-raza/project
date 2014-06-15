@@ -15,7 +15,6 @@ import org.springframework.web.servlet.config.annotation.DefaultServletHandlerCo
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-import uk.org.project.application.ApplicationProperties;
 import uk.org.project.application.StringTemplateView;
 
 import java.net.URI;
@@ -37,7 +36,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter{
     public InternalResourceViewResolver getVelocityViewResolver() {
         InternalResourceViewResolver velocityViewResolver = new InternalResourceViewResolver();
         velocityViewResolver.setViewClass(StringTemplateView.class);
-        velocityViewResolver.setPrefix("/view/");
+        velocityViewResolver.setPrefix("/templates/");
         velocityViewResolver.setSuffix(".st");
         velocityViewResolver.setRequestContextAttribute("rc");
         return velocityViewResolver;

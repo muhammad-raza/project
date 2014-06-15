@@ -1,4 +1,4 @@
-package uk.org.project.userdao;
+package uk.org.project.dao.userdao;
 
 import uk.org.project.entity.UserEntity;
 

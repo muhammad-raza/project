@@ -1,6 +1,6 @@
-package uk.org.project.configuration;
+package uk.org.project.ApplicationServer;
 
-import uk.org.project.application.ApplicationProperties;
+import uk.org.project.configuration.ApplicationProperties;
 
 public class ApplicationStarter {
 

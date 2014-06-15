@@ -17,7 +17,7 @@ public class StringTemplateView extends InternalResourceView {
 
         Resource templateFile = getApplicationContext().getResource(getUrl());
 
-        StringTemplateGroup group = new StringTemplateGroup("webpages", templateFile.getFile().getParent());
+        StringTemplateGroup group = new StringTemplateGroup("templates", templateFile.getFile().getParent());
         StringTemplate template = group.getInstanceOf(getBeanName());
         template.setAttributes(model);
 

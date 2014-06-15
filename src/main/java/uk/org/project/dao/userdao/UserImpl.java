@@ -1,4 +1,4 @@
-package uk.org.project.userdao;
+package uk.org.project.dao.userdao;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
