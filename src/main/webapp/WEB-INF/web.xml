@@ -7,7 +7,7 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
     <display-name>project</display-name>
 
     <servlet>
-        <servlet-name>redalert</servlet-name>
+        <servlet-name>project</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextClass</param-name>
