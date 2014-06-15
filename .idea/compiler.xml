@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="project" />
-        <module name="redalert" />
       </profile>
     </annotationProcessing>
   </component>
