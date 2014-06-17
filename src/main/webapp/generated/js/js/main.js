@@ -1,0 +1,1 @@
+!function(a){"use strict";a(function(){a(".right_hand_side").fadeIn(500).css("display","inline-block"),a(".mobile_menu_button").on("click",function(){a(".mobile_left_nav").fadeIn(100)}),a(".close").on("click",function(){a(".mobile_left_nav").fadeOut(100)})})}(jQuery);

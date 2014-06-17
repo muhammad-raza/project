@@ -13,20 +13,26 @@ module.exports = function(grunt) {
 
     uglify: {
         dist: {
-          files: {
-            'generated/js/output.min.js': ['js/jquery.js']
-          }
+          files: [{
+            expand: true,
+            src: 'js/**/*.js',
+            dest: 'generated/js'
+          }]
         }
     },
 
     watch: {
-    options: {
-      livereload: true
-    },
+        options: {
+          livereload: true
+        },
 
-        css: {
+        sass: {
             files: 'scss/**/*.scss',
             tasks: ['compass']
+        },
+        scripts: {
+            files: 'js/**/*.js',
+            tasks: ['uglify']
         }
     }
 
@@ -37,6 +43,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('w', ['watch']);
   grunt.registerTask('default', ['compass', 'uglify']);
 };
