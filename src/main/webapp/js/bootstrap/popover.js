@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // POPOVER PUBLIC CLASS DEFINITION
@@ -107,4 +107,4 @@
     return this
   }
 
-}(jQuery);
+});

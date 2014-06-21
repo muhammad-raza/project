@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // SCROLLSPY CLASS DEFINITION
@@ -150,4 +150,4 @@
     })
   })
 
-}(jQuery);
+});

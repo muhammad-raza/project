@@ -1,4 +1,6 @@
-<h1>h1. Bootstrap heading</h1>
+<div class="container-fluid">
+  <h1>h1. Bootstrap heading</h1>
+</div>  
 
 $common/nav()$
 

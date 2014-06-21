@@ -1,5 +1,5 @@
-<div data-spy="affix" data-offset-top="100" id="nav">
-    <nav class="navbar navbar-inverse" role="navigation">
+<div id="nav-wrapper">
+    <nav class="navbar navbar-inverse" role="navigation" id="nav">
 
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->

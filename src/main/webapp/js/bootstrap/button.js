@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // BUTTON PUBLIC CLASS DEFINITION
@@ -104,4 +104,4 @@
     e.preventDefault()
   })
 
-}(jQuery);
+});

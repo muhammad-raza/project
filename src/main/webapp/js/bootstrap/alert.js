@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // ALERT CLASS DEFINITION
@@ -85,4 +85,4 @@
 
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
-}(jQuery);
+});

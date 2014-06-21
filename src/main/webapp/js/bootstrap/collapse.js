@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // COLLAPSE PUBLIC CLASS DEFINITION
@@ -167,4 +167,4 @@
     $target.collapse(option)
   })
 
-}(jQuery);
+});

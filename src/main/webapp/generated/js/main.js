@@ -1,1 +1,1 @@
-require(["jquery","js/bootstrap/dropdown.js","js/bootstrap/affix.js"],function(a){a("#nav").affix({})});
+require(["jquery","js/bootstrap/dropdown.js","js/bootstrap/affix.js"],function(a){a("#nav-wrapper").height(a("#nav").height()),a("#nav").affix({offset:{top:a("#nav").offset().top}})});

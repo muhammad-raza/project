@@ -8,9 +8,9 @@
     <script type="text/javascript" data-main="/generated/js/main.js" src="/generated/js/require.js"></script>
 </head>
 
-<div class="container-fluid">
     $common/header()$
 
+<div class="container">
 
     <body>
         <div class="row">
