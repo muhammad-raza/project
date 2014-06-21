@@ -1,0 +1,1 @@
+require(["jquery","js/bootstrap/dropdown.js","js/bootstrap/affix.js"],function(a){a("#nav").affix({})});
