@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+define(['jquery'], function($){
   'use strict';
 
   // AFFIX CLASS DEFINITION
@@ -133,5 +133,4 @@
       $spy.affix(data)
     })
   })
-
-}(jQuery);
+});

@@ -16,7 +16,7 @@ module.exports = function(grunt) {
           files: [{
             expand: true,
             src: 'js/**/*.js',
-            dest: 'generated/js'
+            dest: 'generated'
           }]
         }
     },
@@ -33,6 +33,9 @@ module.exports = function(grunt) {
         scripts: {
             files: 'js/**/*.js',
             tasks: ['uglify']
+        },
+        templates: {
+            files: 'templates/**/*.st'
         }
     }
 

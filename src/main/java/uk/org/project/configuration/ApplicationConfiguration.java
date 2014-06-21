@@ -38,7 +38,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter{
         velocityViewResolver.setViewClass(StringTemplateView.class);
         velocityViewResolver.setPrefix("/templates/");
         velocityViewResolver.setSuffix(".st");
-        velocityViewResolver.setRequestContextAttribute("rc");
+//        velocityViewResolver.setRequestContextAttribute("rc");
         return velocityViewResolver;
     }
 

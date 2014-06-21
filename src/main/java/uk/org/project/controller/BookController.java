@@ -4,23 +4,18 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
 
 @Controller
 public class BookController {
-    private final String INDEX = "index";
-    private final String PAGE_NAME = "pageName";
+    private final String MAIN = "layout/main";
 
 //    @Autowired
 //    private UserDAO userDAO;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET, produces = "text/plain")
-    public String homeController(HttpServletResponse response, ModelMap mav) {
-        mav.addAttribute("name", "raza");
-        return INDEX;
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String homeController(ModelMap map) {
+        map.addAttribute("name", "raza");
+        return MAIN;
 //        map.addAttribute("user", new UserEntity());
 //        map.addAttribute("userList", userDAO.getAllUsers());
 
