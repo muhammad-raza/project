@@ -1,1 +1,1 @@
-require(["jquery","js/bootstrap/dropdown.js","js/bootstrap/affix.js"],function(a){a("#nav-wrapper").height(a("#nav").height()),a("#nav").affix({offset:{top:a("#nav").offset().top}})});
+require(["jquery","js/bootstrap/button.js","js/bootstrap/collapse.js","js/bootstrap/dropdown.js","js/bootstrap/affix.js","js/bootstrap/carousel.js","js/bootstrap/transition.js"],function(a){a("#nav").affix({offset:{top:a("#nav").offset().top}}),a(".carousel").carousel({interval:2e3,cycle:!0})});

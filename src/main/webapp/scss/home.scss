@@ -4,8 +4,15 @@
 
 //components
 @import "bootstrap/component-animations";
-
 @import "bootstrap/dropdowns";
+@import "bootstrap/thumbnails";
 @import "bootstrap/navs";
 @import "bootstrap/navbar";
 @import "bootstrap/breadcrumbs";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+
+@import "bootstrap/glyphicons";
+
+// Components w/ JavaScript
+@import "bootstrap/carousel";

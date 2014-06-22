@@ -1,10 +1,10 @@
 <div id="nav-wrapper">
     <nav class="navbar navbar-inverse" role="navigation" id="nav">
 
-    <div class="container-fluid">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -14,7 +14,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
@@ -31,13 +31,16 @@
               </ul>
             </li>
           </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+          <div class="col-sm-4 col-md-4 navbar-right">
+          <form class="navbar-form" role="search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search&hellip;">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default">Go</button>
+                </span>
             </div>
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
-
+        </form>
+      </div>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
 

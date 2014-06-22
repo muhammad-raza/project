@@ -1,3 +1,7 @@
+#nav-wrapper{
+	height: 50px;
+}
+
 #nav.affix {
     position: fixed;
     top: 0;
@@ -5,8 +9,24 @@
     z-index:100;
     border-radius: 0;
     width: 100%;
-    @include transition(all, 0.2s, ease-in-out);
 }
-#nav.affix-top {
+#nav.affix-top{
+	z-index:100;
+}
+#nav.affix-top, .breadcrumb {
 	border-radius: 0;
+}
+
+ol.breadcrumb {
+	margin-bottom: 0;
+	padding: 8px 0;
+}
+
+.breadcrumb-wrapper {
+	background-color: #f5f5f5;
+	margin-bottom: 20px;
+}
+
+.navbar-right, .navbar-right > .navbar-form, #navbar-collapse{
+	padding: 0;
 }
