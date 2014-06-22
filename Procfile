@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* uk/org/project/configuration/ApplicationStarter
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* uk/org/project/server/ApplicationStarter

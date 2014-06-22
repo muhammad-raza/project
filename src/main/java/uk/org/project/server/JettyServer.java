@@ -1,4 +1,4 @@
-package uk.org.project.ApplicationServer;
+package uk.org.project.server;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

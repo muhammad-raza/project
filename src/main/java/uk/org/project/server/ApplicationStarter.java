@@ -1,4 +1,4 @@
-package uk.org.project.ApplicationServer;
+package uk.org.project.server;
 
 import uk.org.project.configuration.ApplicationProperties;
 
